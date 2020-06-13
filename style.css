@@ -1,0 +1,43 @@
+.body{
+    background-color: rgb(150, 150, 150);
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+.header{
+    background-color: rgb(255, 79, 79);
+    height: 5rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    color: white;
+}
+.content{
+    background-color: transparent;
+    margin: center;
+    height: 417px;
+    width: auto;
+}
+.footer{
+    background-color: rgb(255, 79, 79);
+    height: 5rem;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(255, 79, 79);
+    border-left: 2px;
+    border-right: 2px;
+}
+@media screen{
+    #loginadm, #cart, #logout{
+        background-color: transparent;
+        border: transparent;
+    }
+}
+#divsombra{
+    text-align: center;
+    height: 320px;
+    width: 250px;
+    margin-top: 70px;
+}
