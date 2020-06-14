@@ -1,5 +1,6 @@
 .body{
     background-color: rgb(150, 150, 150);
+    
 }
 body, html{
     height: 100%;
@@ -9,7 +10,7 @@ body, html{
     background-color: rgb(255, 79, 79);
     height: 5rem;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI Semibold';
     font-size: 55px;
     color: white;
 }
@@ -30,15 +31,24 @@ body, html{
     border-right: 2px;
 }
 @media screen{
-    #loginadm, #cart, #logout{
+    #loginadm, #cart, #logout, #paginicial{
         background-color: transparent;
         border: transparent;
     }
 }
 #divsombra{
+    font-family: 'Times new roman';
     text-align: center;
     height: 25%;
     width: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+#divcadastro{
+    font-family: 'Times new roman';
+    text-align: center;
+    height: 25%;
+    width: 20%;
     margin-top: 25%;
     margin-bottom: 25%;
 }
