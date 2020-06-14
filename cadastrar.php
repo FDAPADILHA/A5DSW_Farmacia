@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -33,9 +34,9 @@
         </nav>
         <div class="content">
             <center>
-                <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divcadastro">  
+                <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divcadastro">
                     <h1>Cadastrar Usuário</h1><br>
-                    <form method="POST" action=".php">
+                    <form method="POST" action="controller/salvarusuario.php">
                         <label>Nome: </label>
                             <input type="text" name="nome" placeholder="Digite seu nome completo" required> <br> <br>
                         <label>E-mail: </label>

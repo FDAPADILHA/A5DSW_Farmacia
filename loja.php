@@ -1,6 +1,3 @@
-<?php 
-    session_start();
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <title>Página Inicial</title>
+    <title>loja</title>
 </head>
     <body>
         <div class="header">Pharma Store ✙</div>
@@ -16,12 +13,13 @@
                 <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a href="admin.php">
-                            <button type="button" id="loginadm" title="Logar como Administrador">
-                                <svg class="bi bi-people-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-                                </svg>
-                            </button>
+                            <a href="index.php">
+                                <button type="button" id="paginicial" title="Voltar a página Inicial">
+                                    <svg class="bi bi-house-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M8 3.293l6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+                                        <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+                                    </svg>
+                                </button>
                             </a>
                         </li>
                     </ul>
@@ -44,17 +42,7 @@
                 </div>
             </nav>
             <div class="content">
-                <center>
-                    <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">
-                        <h4><b>Acessar</b></h4><br>
-                        <form method="POST" id="formlogin" action="login.php" >
-                            <input type="email" placeholder="E-mail" name="email" required> <br><br>
-                            <input type="password" placeholder="Senha" name="senha" required> <br><br>
-                            <input class="btn btn-success" type="submit" value="Login"> <br><br>
-                            <a href="cadastrar.php"> Ainda não é inscrito? <strong> Cadastre-se! </strong>
-                        </form>
-                    </div>
-                </center>
+            
             </div>
         <div class="footer"></div>
     </body>

@@ -22,7 +22,7 @@ class Conexao{
     public static function consultar($query){
         $conn = self::abrir();
         if( $conn ){
-            $result = mysqli_query($conn, $query);
+            $result = mysqli_query($query);
             self::fechar($conn);
             return $result;
         }
