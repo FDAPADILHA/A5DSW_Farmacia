@@ -4,7 +4,7 @@ class Conexao{
     private static $local = "localhost";
     private static $user = "root";
     private static $senha = "";
-    private static $banco = "db_a5";
+    private static $banco = "banco_a5";
 
     private static function abrir(){
         $conn = mysqli_connect(self::$local , self::$user, self::$senha , self::$banco);
@@ -22,7 +22,7 @@ class Conexao{
     public static function consultar($query){
         $conn = self::abrir();
         if( $conn ){
-            $result = mysqli_query($query);
+            $result = mysqli_query($conn, $query);
             self::fechar($conn);
             return $result;
         }

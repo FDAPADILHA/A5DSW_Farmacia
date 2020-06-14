@@ -1,5 +1,4 @@
 <?php
-
 include_once "../model/clsConexao.php";
 
 $user = $_POST['usuario'];
@@ -15,9 +14,6 @@ $result = Conexao::consultar($query);
         $_SESSION["logado"] = TRUE;
         $_SESSION["id_usuario"] = $usuario['id'];
         $_SESSION["nome_usuario"] = $usuario['nome'];
-
         header("Location: ../cadastro_produto.php");
-    }else{
-        header("Location: ../admin.php?erro");
     }
 ?>
