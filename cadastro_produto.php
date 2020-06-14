@@ -43,8 +43,8 @@
             </nav>
             <div class="content">
                 <center>
-                    <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">    
-                    <h1>Cadastro de Medicamento</h1> <br>
+                    <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">
+                    <h4><b>Cadastro de Medicamento</b></h4><br>
                         <form method="POST" action=".php">
                             <label><b>Nome:</b></label>
                                 <input type="text" name="nome" placeholder="Nome do medicamento"><br><br>
@@ -65,5 +65,6 @@
                 </center>
             </div>
         <div class="footer"></div>
+        <script src="script.js"></script>
     </body>
 </html>
