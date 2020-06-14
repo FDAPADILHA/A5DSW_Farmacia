@@ -1,5 +1,9 @@
 <?php 
     session_start();
+    
+    if( isset($_REQUEST['erro']) ){
+    echo "<script> alert('Usuário ou Senha não cadastrado'); </script>";
+    }
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">

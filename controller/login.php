@@ -1,9 +1,8 @@
 <?php
-
 include_once "../model/clsConexao.php";
 
 $email = $_POST['email'];
-$senha = $_POST['senha'];
+$senha = MD5($_POST['senha']);
 
 $query = "SELECT email, senha FROM usuarios WHERE email = '$email' AND senha = '$senha'";
 $result = Conexao::consultar($query);
@@ -17,5 +16,8 @@ $result = Conexao::consultar($query);
         $_SESSION["nome_usuario"] = $usuario['nome'];
 
         header("Location: ../loja.php");
+    }
+    else{
+        header(" Location: ../index.php?erro");
     }
 ?>

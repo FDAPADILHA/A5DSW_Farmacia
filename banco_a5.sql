@@ -1,4 +1,4 @@
-CREATE DATABASE db_a5;
+CREATE DATABASE banco_a5;
 
 CREATE TABLE usuarios (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
@@ -20,3 +20,7 @@ CREATE TABLE produtos (
     formula VARCHAR(10) NOT NULL,
     quantidade INT NOT NULL
 );
+
+INSERT INTO `adm`(`id`, `nome`, `senha`) VALUES ( 1, "admin", 123 );
+
+
