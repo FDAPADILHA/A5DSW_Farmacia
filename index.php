@@ -47,7 +47,7 @@
                 <center>
                     <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">
                         <h4><b>Acessar</b></h4><br>
-                        <form method="POST" id="formlogin" action="login.php" >
+                        <form method="POST" id="formlogin" action="controller/login.php" >
                             <input type="email" placeholder="E-mail" name="email" required> <br><br>
                             <input type="password" placeholder="Senha" name="senha" required> <br><br>
                             <input class="btn btn-success" type="submit" value="Login"> <br><br>
