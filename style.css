@@ -16,8 +16,8 @@ body, html{
 .content{
     background-color: transparent;
     margin: center;
-    height: 417px;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
 .footer{
     background-color: rgb(255, 79, 79);
@@ -37,7 +37,8 @@ body, html{
 }
 #divsombra{
     text-align: center;
-    height: 320px;
-    width: 250px;
-    margin-top: 70px;
+    height: 25%;
+    width: 25%;
+    margin-top: 25%;
+    margin-bottom: 25%;
 }

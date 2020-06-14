@@ -5,7 +5,7 @@
     <title> Cadastro </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     </head>
     <body>
     <div class="header">Pharma Store ✙</div>
@@ -39,20 +39,19 @@
             </div>
         </nav>
         <div class="content">
-        <center>
-        <br> <br> <br> <h1>Cadastrar Usuário</h1>
-            <form method="POST" action=".php">
-                <label>Nome: </label>
-                <input type="text" name="nome" placeholder="Digite seu nome completo"> <br> <br>
-                <label>E-mail: </label>
-                <input type="email" name="email" placeholder="Digite seu e-mail"> <br> <br>
-                <label>Senha: </label>
-                <input type="password" name="senha" placeholder="Digite uma senha"> <br> <br>
-                <input type="submit" value="Cadastrar"> <br>
-            </form>
-        </center>
+            <center>
+            <br> <br> <br> <h1>Cadastrar Usuário</h1>
+                <form method="POST" action=".php">
+                    <label>Nome: </label>
+                    <input type="text" name="nome" placeholder="Digite seu nome completo"> <br> <br>
+                    <label>E-mail: </label>
+                    <input type="email" name="email" placeholder="Digite seu e-mail"> <br> <br>
+                    <label>Senha: </label>
+                    <input type="password" name="senha" placeholder="Digite uma senha"> <br> <br>
+                    <input type="submit" value="Cadastrar"> <br>
+                </form>
+            </center>
         </div>
     <div class="footer"></div>
-       
     </body>
 </html>
