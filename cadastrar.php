@@ -37,11 +37,11 @@
                     <h1>Cadastrar Usuário</h1><br>
                     <form method="POST" action=".php">
                         <label>Nome: </label>
-                            <input type="text" name="nome" placeholder="Digite seu nome completo"> <br> <br>
+                            <input type="text" name="nome" placeholder="Digite seu nome completo" required> <br> <br>
                         <label>E-mail: </label>
-                            <input type="email" name="email" placeholder="Digite seu e-mail"> <br> <br>
+                            <input type="email" name="email" placeholder="Digite seu e-mail" required> <br> <br>
                         <label>Senha: </label>
-                            <input type="password" name="senha" placeholder="Digite uma senha"> <br> <br>
+                            <input type="password" name="senha" placeholder="Digite uma senha" required> <br> <br>
                         <input type="submit" value="Cadastrar"> <br>
                     </form>
                 </div>

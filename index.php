@@ -45,8 +45,8 @@
                     <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">
                         <h4><b>Acessar</b></h4><br>
                         <form 1method="POST" id="formlogin">
-                            <input type="email" placeholder="E-mail" name="email"> <br><br>
-                            <input type="password" placeholder="Senha" name="senha"> <br><br>
+                            <input type="email" placeholder="E-mail" name="email" required> <br><br>
+                            <input type="password" placeholder="Senha" name="senha" required> <br><br>
                             <input class="btn btn-success" type="submit" value="Log in"> <br><br>
                             <a href="cadastrar.php"> Ainda não é inscrito? <strong> Cadastre-se! </strong>
                         </form>

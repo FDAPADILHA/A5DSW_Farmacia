@@ -48,8 +48,8 @@
                 <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">
                     <h4><b>Acessar como Administrador</b></h4><br>
                     <form method="POST" id="formlogin" action="salvaradmin.php">
-                        <input type="user" placeholder="Usuário" name="usuario"> <br><br>
-                        <input type="password" placeholder="Senha" name="senha"> <br><br>
+                        <input type="user" placeholder="Usuário" name="usuario" required> <br><br>
+                        <input type="password" placeholder="Senha" name="senha" required> <br><br>
                         <input class="btn btn-success" type="submit" value="Log in"> <br><br>
                     </form>
                 </div>
