@@ -32,9 +32,8 @@
                 </ul>
             </div>
         </nav>
-        <div class="content">
-            <center>
-                <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divcadastro">
+        <div class="content"><br><br><br><br><br><br><br>
+                <div class="shadow-lg bg-white" id="divcadastro">
                     <h1>Cadastrar Usuário</h1><br>
                     <form method="POST" action="controller/salvarusuario.php">
                         <label>Nome: </label>
@@ -46,7 +45,6 @@
                         <input type="submit" value="Cadastrar"> <br>
                     </form>
                 </div>
-            </center>
         </div>
     <div class="footer"></div>
     </body>

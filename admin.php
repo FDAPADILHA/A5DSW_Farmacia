@@ -46,9 +46,8 @@
                 </ul>
             </div>
         </nav>
-        <div class="content">
-            <center>
-                <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divsombra">
+        <div class="content"><br><br><br><br><br><br><br><br><br>
+                <div class="shadow-lg bg-white" id="divadm">
                     <h4><b>Acessar como Administrador</b></h4><br>
                     <form method="POST" id="formlogin" action="controller/salvaradmin.php">
                         <input type="user" placeholder="Usuário" name="usuario" required> <br><br>
@@ -56,7 +55,6 @@
                         <input class="btn btn-success" type="submit" value="Log in"> <br><br>
                     </form>
                 </div>
-            </center>
         </div>
     <div class="footer"></div>
     </body>

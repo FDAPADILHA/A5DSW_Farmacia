@@ -23,7 +23,7 @@
                             </a>
                             <a href="loja.php">
                                 <button type="button" id="paginicial" title="Ir para a loja">
-                                    <svg class="bi bi-basket3-fill" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="bi bi-basket3-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" d="M10.243 1.071a.5.5 0 0 1 .686.172l3 5a.5.5 0 0 1-.858.514l-3-5a.5.5 0 0 1 .172-.686zm-4.486 0a.5.5 0 0 0-.686.172l-3 5a.5.5 0 1 0 .858.514l3-5a.5.5 0 0 0-.172-.686z"/>
                                         <path d="M13.489 14.605A.5.5 0 0 1 13 15H3a.5.5 0 0 1-.489-.395L1.311 9H14.69l-1.201 5.605z"/>
                                             <rect width="16" height="2" y="6" rx=".5"/>
@@ -47,10 +47,9 @@
                     </ul>
                 </div>
             </nav>
-            <div class="content">
-                <center>
-                    <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divcadastro">
-                    <h4><b>Cadastro de Medicamento</b></h4><br>
+            <div class="content"><br><br><br><br><br><br><br>
+                    <div class="shadow-lg bg-white " id="divcadastro">
+                        <h4><b>Cadastro de Medicamento</b></h4><br>
                         <form method="POST" action="controller/salvarproduto.php">
                             <label><b>Nome:</b></label>
                                 <input type="text" name="nome" placeholder="Nome do medicamento" required><br><br>
@@ -67,7 +66,6 @@
                                 <input type="submit" value="Cadastrar medicamentos"><br>
                         </form>
                     </div>
-                </center>
             </div>
         <div class="footer"></div>
     </body>
