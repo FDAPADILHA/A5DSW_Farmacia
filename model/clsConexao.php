@@ -30,7 +30,7 @@ class Conexao{
     public static function executar($query){
         $conn = self::abrir();
         if( $conn ){
-            mysqli_query($conn, $query);
+            $result = mysqli_query($conn, $query);
             self::fechar($conn);
         }
     }

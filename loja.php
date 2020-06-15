@@ -1,3 +1,6 @@
+<?php
+    $cont=0;
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -42,7 +45,23 @@
                 </div>
             </nav>
             <div class="content">
-            
+            <?php
+                $Lista = MedicamentoDAO::getMedicamentos();
+                    foreach($Lista as $med){
+                        $cont++;
+                        echo"<div>";
+                        echo"<img src='imagem/imagem.jpg'></img>";
+                        echo"<label>Nome:"$med->nome"</label>";
+                        echo"<label>Nome:"$med->formula"</label>";
+                        echo"";
+                        echo"";
+                        echo"</div>";
+                        if(cont == 4){
+                            echo "<br>";
+                            cont == 0;
+                        }
+                    }
+            ?>          
             </div>
         <div class="footer"></div>
     </body>

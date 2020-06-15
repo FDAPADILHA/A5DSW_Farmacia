@@ -49,11 +49,11 @@
                 <center>
                     <div class="shadow-lg p-3 mb-5 bg-white rounded" id="divcadastro">
                     <h4><b>Cadastro de Medicamento</b></h4><br>
-                        <form method="POST" action=".php">
+                        <form method="POST" action="controller/salvarproduto.php">
                             <label><b>Nome:</b></label>
                                 <input type="text" name="nome" placeholder="Nome do medicamento" required><br><br>
                             <label><b>Fórmula:</b></label>
-                                <select id="sformula" required>
+                                <select name="formula" id="sformula" required>
                                     <option value=""> Selecione </option>
                                     <option value="Original"> Original </option>
                                     <option value="Generico"> Genérico </option>
@@ -61,13 +61,12 @@
                             <label><b>Preço:</b></label>
                                 <input type="number" name="preco" placeholder="Preço do medicamento" required><br><br>
                             <label><b>Quantidade:</b></label>
-                                <input type="number" name="quant" placeholder="Quantidade de medicamentos" required><br><br>
-                                <input type="submit" value="Cadastrar medicamento"><br>
+                                <input type="number" name="quantidade" placeholder="Quantidade de medicamentos" required><br><br>
+                                <input type="submit" value="Cadastrar medicamentos"><br>
                         </form>
                     </div>
                 </center>
             </div>
         <div class="footer"></div>
-        <script src="script.js"></script>
     </body>
 </html>
