@@ -31,7 +31,7 @@ body, html{
     border-right: 2px;
 }
 @media screen{
-    #loginadm, #cart, #logout, #paginicial{
+    #loginadm, #cart, #logout, #paginicial, #voltar{
         background-color: transparent;
         border: transparent;
     }
@@ -51,4 +51,17 @@ body, html{
     width: 25%;
     margin-top: 25%;
     margin-bottom: 25%;
+}
+#divmed{
+    display: inline-block;
+    font-family: 'Times new roman';
+    margin-top: 150px;
+    margin-left: 0px;
+    margin-bottom: 80px;
+    width: 300px;
+    height: 100px;
+}
+#divloja{
+    text-align: center;
+    height: 1000px;
 }

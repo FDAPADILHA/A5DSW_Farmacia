@@ -36,11 +36,13 @@
                 <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <button type="button" id="logout" title="Logout">
-                                <svg class="bi bi-person-dash-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5-.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
-                                </svg>
-                            </button>
+                            <a href="controller/logout.php">
+                                <button type="button" id="logout" title="Logout">
+                                    <svg class="bi bi-person-dash-fill" width="20px" height="20px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" d="M1 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm5-.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5z"/>
+                                    </svg>
+                                </button>
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -59,7 +61,7 @@
                                     <option value="Generico"> Genérico </option>
                                 </select><br><br>
                             <label><b>Preço:</b></label>
-                                <input type="number" name="preco" placeholder="Preço do medicamento" required><br><br>
+                                <input type="number" name="preco" placeholder="Preço do medicamento" required min="1"><br><br>
                             <label><b>Quantidade:</b></label>
                                 <input type="number" name="quantidade" placeholder="Quantidade de medicamentos" required><br><br>
                                 <input type="submit" value="Cadastrar medicamentos"><br>

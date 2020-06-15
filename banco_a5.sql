@@ -22,5 +22,3 @@ CREATE TABLE produtos (
 );
 
 INSERT INTO `adm`(`id`, `nome`, `senha`) VALUES ( 1, "admin", 123 );
-
-

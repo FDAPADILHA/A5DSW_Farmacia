@@ -1,23 +1,22 @@
 <?php
-include_once "../model/clsConexao.php";
+    include_once "../model/clsConexao.php";
 
-$email = $_POST['email'];
-$senha = MD5($_POST['senha']);
+    $email = $_POST['email'];
+    $senha = MD5($_POST['senha']);
 
-$query = "SELECT email, senha FROM usuarios WHERE email = '$email' AND senha = '$senha'";
-$result = Conexao::consultar($query);
-    if( mysqli_num_rows($result) > 0 ){
-        session_start();
+    $query = "SELECT email, senha FROM usuarios WHERE email = '$email' AND senha = '$senha'";
+    $result = Conexao::consultar($query);
+        if( mysqli_num_rows($result) > 0 ){
+            session_start();
 
-        $usuario = mysqli_fetch_assoc($result);
+            $usuario = mysqli_fetch_assoc($result);
 
-        $_SESSION["logado"] = TRUE;
-        $_SESSION["id_usuario"] = $usuario['id'];
-        $_SESSION["nome_usuario"] = $usuario['nome'];
+            $_SESSION["logado"] = TRUE;
+            $_SESSION["email_usuario"] = $usuario['email'];
+            $_SESSION["senha_usuario"] = $usuario['nome'];
 
-        header("Location: ../loja.php");
-    }
-    else{
-        header(" Location: ../index.php?erro");
-    }
+            header("Location: ../loja.php");
+        }else{
+            header(" Location: ../index.php?erro");
+        }
 ?>
